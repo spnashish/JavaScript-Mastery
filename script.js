@@ -100,77 +100,119 @@ let b=9;
 // console.log(name);
 
 
-let num=[1,2,3,4,5,6,7,8];
-let num2=[2,3,2,3,23,2,1,2];
+ let num=[1,2,3,4,5,6,7,8];
+ let num2=[2,3,2,3,23,2,1,2];
 
 
-for(let i=0;i<num.length;i++)
-{
-    console.log(num[i]);
+// for(let i=0;i<num.length;i++)
+// {
+//     console.log(num[i]);
+// }
+
+// //forEach loop
+
+// num.forEach((val,ind,arr)=>{
+//     console.log("Index "+ind+"   value"+val+"    Array"+arr);
+// })
+
+// //map Method
+
+// let newarr=num.map((val)=>{
+//     return val*4;
+// })
+// console.log(newarr);
+
+
+// console.log(num.concat(num2));
+// //console.log(num2.sort());
+// console.log(num2.reverse());
+
+// console.log("For of Loop");
+// for(let arr of num2)
+// {
+//     console.log(arr);
+// }
+// console.log("For in Loop");
+
+// for(let arr in num2)
+// {
+//     console.log(arr);
+// }
+
+// //Multidimensional Array
+
+// let mat=[
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ]
+
+// for(let i=0;i<mat.length;i++)
+// {
+//     for(let j=0;j<mat[i].length;j++)
+//     {
+//         console.log(mat[i][j]);
+//     }
+// }
+
+// for(let ar of mat)
+// {
+//     for(let arr of ar)
+//     {
+//         console.log(arr);
+
+//     }
+// }
+
+// mat.forEach((val,ind,mat)=>{
+//     val.forEach(data=>{
+//         console.log(data);
+//     })
+// })
+
+
+// //Spread
+// let  arr1 = ["ashish",21,"Sharma"];
+// let arr2=arr1.slice(0).concat(["Work Hard"]);
+// console.log(arr1);
+// console.log(arr2);
+
+// //copy
+// let temp1=[...arr1];
+// console.log("Copy Array "+temp1);
+
+// //Array Destruction
+
+// let [i1,i2 , ...i3]=arr1;
+// console.log("Array Destruction"+i1+" "+i2+" "+i3);
+
+console.log("Object")
+
+let obj={
+    name:"Ashish",
+    Work: "kaam Karo",
+    age:21,
+    fun:function(){
+        console.log("Buss Bhai kamm karte rahoo");
+    },
+    arr:[2,3,2,13,2]
 }
+console.log("Object  "+obj.name);
 
-//forEach loop
+//debugger
 
-num.forEach((val,ind,arr)=>{
-    console.log("Index "+ind+"   value"+val+"    Array"+arr);
-})
-
-//map Method
-
-let newarr=num.map((val)=>{
-    return val*4;
-})
-console.log(newarr);
+// for(let i=1;i<6;i++)
+// {
+//     debugger;
+//     console.log(i);
+// }
 
 
-console.log(num.concat(num2));
-//console.log(num2.sort());
-console.log(num2.reverse());
+console.log("Set in JS");
 
-console.log("For of Loop");
-for(let arr of num2)
-{
-    console.log(arr);
-}
-console.log("For in Loop");
-
-for(let arr in num2)
-{
-    console.log(arr);
-}
-
-//Multidimensional Array
-
-let mat=[
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-]
-
-for(let i=0;i<mat.length;i++)
-{
-    for(let j=0;j<mat[i].length;j++)
-    {
-        console.log(mat[i][j]);
-    }
-}
-
-for(let ar of mat)
-{
-    for(let arr of ar)
-    {
-        console.log(arr);
-
-    }
-}
-
-mat.forEach((val,ind,mat)=>{
-    val.forEach(data=>{
-        console.log(data);
-    })
-})
-
-
+const s = new Set([10,2,1,3,0,43]);
+s.add(77);
+console.log(s)
 
 
 
