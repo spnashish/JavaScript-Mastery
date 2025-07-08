@@ -197,9 +197,7 @@ let obj={
     },
     arr:[2,3,2,13,2]
 }
-console.log("Object  "+obj.name);
-
-//debugger
+console.log("Object  "+obj.name);g
 
 // for(let i=1;i<6;i++)
 // {
@@ -213,8 +211,6 @@ console.log("Set in JS");
 const s = new Set([10,2,1,3,0,43]);
 s.add(77);
 console.log(s)
-
-
 
 
 
