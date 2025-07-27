@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    background: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    word-spacing: 0.01em;
+    text-rendering: optimizeLegibility;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+    background-color: aqua;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+h1::before,
+h1::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 1rem 0;
+}
+h1::before{
+    margin-bottom: 0.5rem;
+}
+h1::after{
+    margin-top: 0.5rem;
+}   
+h1::before,
+h1::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 1rem 0;
+}
+/* Removed incomplete text-shadow property */
+h1::before{
+    margin-bottom: 0.5rem;
+}   
+h1::after{
+    margin-top: 0.5rem;
+}
+
+p{
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 1rem;
+}
+p::first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+p::first-line{
+    font-weight: 600;
+    color: #444;
+}
+p::first-line{
+    font-weight: 600;
+    color: #444;
+}
+p::first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
